@@ -6,6 +6,6 @@ module.exports = {
   },
 
   down: async (queryInterface, Sequelize) => {
-    return queryInterface.renameColumn('categories', 'category', 'name');
+    return queryInterface.renameColumn('categories', 'name', 'category');
   }
 };
