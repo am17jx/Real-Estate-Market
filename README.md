@@ -55,7 +55,7 @@ This is a robust backend API for a real estate marketplace, built with Node.js a
 
     You also need to configure your database connection in `db.js`. The current configuration is:
     ```javascript
-    const sequelize = new Sequelize('ameer_db', 'postgres', 'newcore', {
+    const sequelize = new Sequelize('ameer_db', 'postgres', 'password', {
       host: 'localhost',
       port: 5432,
       dialect: 'postgres',
