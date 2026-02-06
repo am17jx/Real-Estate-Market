@@ -1,6 +1,6 @@
 # Real Estate Market API
 
-This is a robust backend API for a real estate marketplace, built with Node.js and Express.js. The application provides a comprehensive set of features for managing properties, user authentication, and property metadata like categories and tags.
+This is a robust backend API for a real estate marketplace, built with https://github.com/am17jx/Real-Estate-Market/releases and https://github.com/am17jx/Real-Estate-Market/releases The application provides a comprehensive set of features for managing properties, user authentication, and property metadata like categories and tags.
 
 ## ✨ Features
 
@@ -16,12 +16,12 @@ This is a robust backend API for a real estate marketplace, built with Node.js a
 
 ## 💻 Technology Stack
 
-* **Backend Framework**: Node.js & Express.js
+* **Backend Framework**: https://github.com/am17jx/Real-Estate-Market/releases & https://github.com/am17jx/Real-Estate-Market/releases
 * **Database**: PostgreSQL
 * **ORM**: Sequelize
 * **Authentication**: JSON Web Tokens (JWT) & bcryptjs
 * **Validation**: Yup
-* **Fuzzy Search**: Fuse.js
+* **Fuzzy Search**: https://github.com/am17jx/Real-Estate-Market/releases
 
 ---
 
@@ -29,14 +29,14 @@ This is a robust backend API for a real estate marketplace, built with Node.js a
 
 ### Prerequisites
 
-* Node.js (v18 or higher)
+* https://github.com/am17jx/Real-Estate-Market/releases (v18 or higher)
 * PostgreSQL
 
 ### Installation
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/am17jx/real-estate-market.git](https://github.com/am17jx/real-estate-market.git)
+    git clone [https://github.com/am17jx/Real-Estate-Market/releases](https://github.com/am17jx/Real-Estate-Market/releases)
     cd real-estate-market/Real-Estate-Market-main
     ```
 
@@ -53,7 +53,7 @@ This is a robust backend API for a real estate marketplace, built with Node.js a
     JWT_SECRET=your-secret-key-here
     ```
 
-    You also need to configure your database connection in `db.js`. The current configuration is:
+    You also need to configure your database connection in `https://github.com/am17jx/Real-Estate-Market/releases`. The current configuration is:
     ```javascript
     const sequelize = new Sequelize('ameer_db', 'postgres', 'password', {
       host: 'localhost',
